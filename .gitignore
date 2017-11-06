@@ -2,6 +2,7 @@
 
 # Packages
 *.egg
+*.eggs
 *.egg-info
 dist
 build
@@ -12,6 +13,7 @@ var
 sdist
 develop-eggs
 .installed.cfg
+.python-version
 
 # We are using MANIFEST.in instead
 MANIFEST
@@ -20,11 +22,17 @@ MANIFEST
 pip-log.txt
 
 # Unit test / coverage reports
+.hypothesis
 .coverage
 .tox
+.cache
+.pytest
 
 #Translations
 *.mo
 
 #Mr Developer
 .mr.developer.cfg
+
+# PyCharm
+.idea
